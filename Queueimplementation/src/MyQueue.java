@@ -5,7 +5,7 @@ public class MyQueue {
     private Node3 front;
     private int size;// total number of elements in the queue
 
-    // constructor
+    
     public MyQueue() {
         front = null;
         rear = null;
