@@ -1,6 +1,5 @@
 public class MyQueue {
     private Node3 rear;
-    // a field to refer front end of queue
     private Node3 front;
     private int size;// total number of elements in the queue
 
