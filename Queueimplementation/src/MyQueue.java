@@ -1,7 +1,7 @@
 public class MyQueue {
     private Node3 rear;
     private Node3 front;
-    private int size;// total number of elements in the queue
+    private int size;
 
     
     public MyQueue() {
