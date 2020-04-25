@@ -1,5 +1,4 @@
 public class MyQueue {
-    // a field to refer rear end of queue
     private Node3 rear;
     // a field to refer front end of queue
     private Node3 front;
