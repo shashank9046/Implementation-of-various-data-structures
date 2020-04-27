@@ -2,8 +2,6 @@ public class MyQueue {
     private Node3 rear;
     private Node3 front;
     private int size;
-
-    
     public MyQueue() {
         front = null;
         rear = null;
