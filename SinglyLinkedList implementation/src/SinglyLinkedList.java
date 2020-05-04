@@ -12,7 +12,6 @@ public class SinglyLinkedList {
             temp.setNext(node);
         }
     }
-
     void insertAtBeginning(Node node) {
         node.setNext(start);
         start = node;
