@@ -17,7 +17,6 @@ public class SinglyLinkedList {
         node.setNext(start);
         start = node;
     }
-
     void insertBeforeNode(Node node, Node beforenode) {
         if (start == null) {
             System.out.println("list emplty");
