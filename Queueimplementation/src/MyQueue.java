@@ -1,11 +1,7 @@
 public class MyQueue {
-    // a field to refer rear end of queue
     private Node3 rear;
-    // a field to refer front end of queue
     private Node3 front;
-    private int size;// total number of elements in the queue
-
-    // constructor
+    private int size;
     public MyQueue() {
         front = null;
         rear = null;
@@ -108,10 +104,6 @@ public class MyQueue {
         obj4.setRoll(4);
         queue.enqueue(obj4);
         System.out.println("the size queue is = " + queue.getSize());
-        //Collections.sort(list);
-		/*for (student e : list) {
-			System.out.println(e);
-		}*/
         queue.sortList();
         queue.traverse();
     }

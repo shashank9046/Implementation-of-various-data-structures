@@ -12,12 +12,10 @@ public class SinglyLinkedList {
             temp.setNext(node);
         }
     }
-
     void insertAtBeginning(Node node) {
         node.setNext(start);
         start = node;
     }
-
     void insertBeforeNode(Node node, Node beforenode) {
         if (start == null) {
             System.out.println("list emplty");
