@@ -1,5 +1,5 @@
 public class BinarySearchTree {
-    //Represent the root of binary tree
+   
     public Node1 root;
 
     public BinarySearchTree(){
