@@ -1,5 +1,4 @@
 public class BinarySearchTree {
-   
     public Node1 root;
     public BinarySearchTree(){
         root = null;
