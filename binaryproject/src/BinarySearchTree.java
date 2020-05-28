@@ -8,8 +8,6 @@ public class BinarySearchTree {
     public void insert(int data) {
         //Create a new node
         Node1 newNode = new Node1(data);
-
-        //Check whether tree is empty
         if(root == null){
             root = newNode;
             return;
