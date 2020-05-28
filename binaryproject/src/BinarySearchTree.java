@@ -3,7 +3,6 @@ public class BinarySearchTree {
     public BinarySearchTree(){
         root = null;
     }
-
     //insert() will add new node to the binary search tree
     public void insert(int data) {
         //Create a new node
