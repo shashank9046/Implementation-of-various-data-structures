@@ -1,17 +1,12 @@
 public class BinarySearchTree {
-    //Represent the root of binary tree
     public Node1 root;
-
     public BinarySearchTree(){
         root = null;
     }
-
     //insert() will add new node to the binary search tree
     public void insert(int data) {
         //Create a new node
         Node1 newNode = new Node1(data);
-
-        //Check whether tree is empty
         if(root == null){
             root = newNode;
             return;
