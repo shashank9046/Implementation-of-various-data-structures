@@ -1,6 +1,5 @@
 public class SinglyLinkedList {
     Node start;
-
     void insert(Node node) {
         if (start == null) {
             start = node;
