@@ -69,7 +69,6 @@ public class MyQueue {
 
         }
     }
-
     // a method to get front element without removing it
     public Node3 peek() {
         Node3 response = null;
