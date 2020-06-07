@@ -19,7 +19,6 @@ public class MyQueue {
             while(current != null) {
                 //Node index will point to node next to current
                 index = current.getNext();
-
                 while(index != null) {
                     //If current node's data is greater than index's node data, swap the data between them
                     if(current.getData().getRoll()> index.getData().getRoll()) {
