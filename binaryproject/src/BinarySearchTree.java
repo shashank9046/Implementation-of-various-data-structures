@@ -38,7 +38,6 @@ public class BinarySearchTree {
             }
         }
     }
-
     //minNode() will find out the minimum node
     public Node1 minNode(Node1 root) {
         if (root.getLeft() != null)
