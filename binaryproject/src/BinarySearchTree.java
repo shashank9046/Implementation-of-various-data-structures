@@ -161,7 +161,6 @@ public class BinarySearchTree {
             System.out.print(node.getData() + " ");
             if(node.getRight()!= null)
                 inorderTraversal(node.getRight());
-
         }
     }
 
