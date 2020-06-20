@@ -14,7 +14,6 @@ public class BinarySearchTree {
         else {
             //current node point to root of the tree
             Node1 current = root, parent = null;
-
             while(true) {
                 //parent keep track of the parent node of current node.
                 parent = current;
