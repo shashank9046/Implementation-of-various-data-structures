@@ -47,7 +47,6 @@ public class arraydatastructure implements arraystructure {
                     }
                     break;
                 case 3:
-
                     int y=obj.deleteatbeginning(array,obj.getend());
                     System.out.println("deleted from beginning");
                     obj.displayarray(array, y);
