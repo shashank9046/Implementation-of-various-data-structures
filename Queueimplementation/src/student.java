@@ -3,7 +3,6 @@ public class student {
     public String toString() {
         return "student [roll=" + roll + ", name=" + name + "]";
     }
-
     private int roll;
     private String name;
 
