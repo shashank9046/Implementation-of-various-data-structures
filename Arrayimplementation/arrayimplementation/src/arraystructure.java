@@ -9,3 +9,4 @@ public interface arraystructure {
     boolean isfull(int [] arr,int count);
     void displayarray(int[] arr,int count);
 }
+
